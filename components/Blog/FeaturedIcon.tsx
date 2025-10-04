@@ -28,9 +28,9 @@ const features = [
   },
 ];
 
-const FeaturedIcons = () => {
+const FeaturedIcons = ({ bgColor = "#F4F5F7" }) => {
   return (
-    <section className="py-5 bg-[#F4F5F7]">
+    <section className="py-5" style={{ backgroundColor: bgColor }}>
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
           {features.map((feature) => (

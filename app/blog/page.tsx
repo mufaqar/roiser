@@ -8,12 +8,15 @@ import LatestCollection from "@/components/Blog/LatestCollection";
 import CustomerTestimonials from "@/components/Blog/CustomerTestimonials";
 import News from "@/components/Blog/News";
 import DailyUpdate from "@/components/Blog/DailyUpdate";
+import Header from "../../components/header/Header";
+import Footer from "@/components/Footer";
 
 
 
 export default function Blog() {
   return (
     <>
+      <Header />
       <Banner title="Shop Grid" breadcrumb="Shop Grid" />
       <FeaturedIcons />
       <Composite />
@@ -23,6 +26,7 @@ export default function Blog() {
       <CustomerTestimonials />
       <News />
       <DailyUpdate />
+      <Footer />
 
     </>
   )
